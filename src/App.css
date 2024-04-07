@@ -30,6 +30,11 @@ nav {
   color: var(--black);
 }
 
+.app-header p {
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
 .social-links {
   display: flex;
   align-items: center;
@@ -50,4 +55,25 @@ footer {
   align-items: start;
   justify-content: flex-end;
   padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .app-logo {
+    height: 60vmin;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .app-header {
+    padding-top: 0;
+  }
+
+  .app-logo {
+    height: 75vmin;
+  }
+
+  footer {
+    justify-content: center;
+    align-items: center;
+  }
 }
