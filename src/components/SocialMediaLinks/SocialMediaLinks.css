@@ -1,0 +1,27 @@
+.social-links-container {
+	margin: 120px 0 160px;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+/* fix color and add black border in figma */
+.social-links img {
+	margin: 0 20px;
+}
+
+.email {
+	font-size: 32px;
+	padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	.social-links-container {
+			margin-top: 20px;
+			margin-bottom: 100px;
+	}
+}

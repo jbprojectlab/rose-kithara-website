@@ -1,0 +1,16 @@
+footer {
+	height: 160px;
+	background-color: var(--rose);
+	color: white;
+	display: flex;
+	align-items: start;
+	justify-content: flex-end;
+	padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+		footer {
+			justify-content: center;
+			align-items: center;
+		}
+}

@@ -1,0 +1,12 @@
+.nav-icon {
+    height: 72px;
+}
+
+nav {
+    height: 80px;
+    border-bottom: 3px solid var(--rose);
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+  
