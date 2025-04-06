@@ -17,6 +17,7 @@
 .email {
 	font-size: 32px;
 	padding: 20px;
+	letter-spacing: 2px;
 }
 
 @media screen and (max-width: 900px) {
