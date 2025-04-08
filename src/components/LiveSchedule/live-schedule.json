@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Pisces Festival 2024",
+    "date": "3/9/24",
+    "upcoming": false
+  },
+  {
+    "name": "Deland Original Music Festival",
+    "date": "11/3/24",
+    "upcoming": false
+  },
+  {
+    "name": "Delandapalooza",
+    "date": "4/12/25",
+    "upcoming": true
+  },
+  {
+    "name": "Cinematique",
+    "date": "TBA",
+    "upcoming": true
+  }
+]

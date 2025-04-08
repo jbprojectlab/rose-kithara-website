@@ -1,11 +1,11 @@
-import Description from '../Description/Description';
+import Header from '../Header/Header';
 import FeatureVideo from '../FeatureVideo/FeatureVideo';
 import './About.css';
 
 const About = () => {
   return (
       <div className="about flex-container">
-        <Description />
+        <Header />
         <FeatureVideo />
       </div>
   );

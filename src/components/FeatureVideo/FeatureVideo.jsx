@@ -11,11 +11,7 @@ const FeatureVideo = () => {
     }
   }
 
-  const onReady = (event) => {
-    console.log('event:  ', event);
-  }
-
-  return <YouTube videoId="n73aw6NwFxs" opts={opts} onReady={onReady} />
+  return <YouTube videoId="n73aw6NwFxs" opts={opts} className="feature-video" />
 }
 
 export default FeatureVideo;
